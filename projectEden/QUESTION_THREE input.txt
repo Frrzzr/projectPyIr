@@ -1,0 +1,90 @@
+ABLE (IBLE)
+    L->ATE
+ABILITY (IBILITY)
+      S->E
+ANCE (ENCE)
+    D->ENT
+ANCY (ENCY)
+    L->ENT
+ANT (ENT)
+     T->E
+     R->E
+ARIAN 
+    N->E
+ATIVE
+    R->ATE
+ATIVELY
+    E->ATE
+CIDE
+    N->E
+CIDAL
+    M->E
+
+CY (ACY)
+  N->T
+  A->TE
+ED (D)
+  S->E
+   V->E
+  T->E
+EE
+   G->E
+   T->E
+   Y->E
+ER
+ V->E
+ T->E
+ M->Y
+ D->E
+ M->Y
+ P->Y
+ H->Y
+ERY (RY)
+     V->E
+     K->E
+     G->E
+IANE (ANA)
+    C->A
+    R->Y
+IC
+  N->E
+  M->Y
+  T->Y
+ICAL
+   M->E
+ICALLY
+  S->ICS
+ICS
+   S->IC
+ITY (TY)
+   R->E
+ING
+  T->E
+ION
+  T->E
+ISM
+   C->E
+IST
+   R->Y
+ITY
+  R->E
+IVE
+  S->E
+  P->E
+IZATION
+  N->IZE
+IZATIONALLY
+     N->E
+LY
+   A->Y
+OLOGY (GY)
+   I->TY
+ORY
+  V->E
+OUS
+  I->ES
+  O->Y
+Y (EY, IE)
+	DD _ D
+	GG _ G
+  

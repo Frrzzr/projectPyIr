@@ -1,0 +1,32 @@
+INFORMATION SYSTEM RETRIVAL GROUP ASSIGNMENT
+
+NAME			ID
+===============================
+FREZER   YIRGA		4845/10
+NATNAIEL MELAK          1846/10
+DIRES    GOBEZE         0547/10
+BELETE   ANDUALEM       0536/10
+MULUKEN  CHEKOLE        0599/10
+YAREGAL  BANTE          0626/10
+BRHANU   BELAY          0926/10
+
+
+ATTTENTION
+==========
+
+FOR QUESTION NUMBER THREE
+-------------------------
+
+1, PLEASE INCLUDE THE FILE AND FOLDER (affixes/) into the main program
+   IF NOT INCLUDED IT CONTAINS RAW INPUT FOR THE STEMMER
+   * irregular verbs (infinitive)
+   * stopwords
+   * suffixes
+   * preffixes
+
+2, THE OUTPUT IS WRITTEN INTO THE AFFIXES/OUTPUT/<FILE_NAME> DIRECTORY
+   CONTAINING THREE TEXT DOCUMENT 
+   
+   * ORIGINAL.txt
+   * STEMMED.txt
+   * REMOVED_STOP.txt
