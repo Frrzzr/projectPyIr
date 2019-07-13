@@ -2,12 +2,13 @@ try:
     import os
     import sys
     import re
-    import nltk
+    import readConcurrently
     import doc2txt
 except ImportError as Msg:
     import os
     import sys
     import re
+    import readConcurrently
     pass
 
 # file = r"C:\Python34\README.txt"
@@ -338,11 +339,20 @@ def print_word_list(to_list):
 while True:
     try:
         pd_name = input("\nENTER FULL FILE NAME: ")
-        open(pd_name, 'r')
-        stem = Stemmiser(pd_name)
-        stem.stem()
-        write_to_file(sorted(set(stemmed)), pd_name[pd_name.rfind('\\') + 1: pd_name.rfind('.txt')], 'stemmed')
-        print('browse affixes/' + pd_name[pd_name.rfind('\\') + 1: pd_name.rfind('.txt')] + ' folder')
+        # what if thye provide ys none txt format file type
+        # save me here
+        
+        # what  if they provide us folder containing multiple file instead of single file 
+        if os.path.isdir(pd_name):
+        	# save me integrating this
+        	rd = ReadConcurrently(pd_name, 8)
+        	rd.feed().items()
+        else:
+	        open(pd_name, 'r')
+	        stem = Stemmiser(pd_name)
+	        stem.stem()
+	        write_to_file(sorted(set(stemmed)), pd_name[pd_name.rfind('\\') + 1: pd_name.rfind('.txt')], 'stemmed')
+	        print('browse affixes/' + pd_name[pd_name.rfind('\\') + 1: pd_name.rfind('.txt')] + ' folder')
         YesNo = input('\ndo you want to continue [YES/NO]: ')
         if len(YesNo) > 0:
             if YesNo != 'yes' and YesNo != 'y' and YesNo != 'Y' \
